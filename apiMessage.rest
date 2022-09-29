@@ -1,7 +1,7 @@
 ######### Cadastro de Mensagem
 POST http://127.0.0.1:3333/messages HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZknzWk
+Authorization: Bearer MQ.ba0-9Axypbep9skycIRuknf8Rk5znWJoxWnip1ajw36FiYZLZ7RYJWSfCzBf
 
 {
 
@@ -13,17 +13,17 @@ Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZ
 ######### Listar todos as Mensagens 
 GET http://127.0.0.1:3333/messages HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZknzWk
+Authorization: Bearer MQ.ba0-9Axypbep9skycIRuknf8Rk5znWJoxWnip1ajw36FiYZLZ7RYJWSfCzBf
 
 ######### Listar Mensagem específica
 GET http://127.0.0.1:3333/messages/1 HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZknzWkz
+Authorization: Bearer MQ.ba0-9Axypbep9skycIRuknf8Rk5znWJoxWnip1ajw36FiYZLZ7RYJWSfCzBf
 
 ######### Alterar Mensagem 
 PUT http://127.0.0.1:3333/messages/1 HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZknzWk 
+Authorization: Bearer MQ.ba0-9Axypbep9skycIRuknf8Rk5znWJoxWnip1ajw36FiYZLZ7RYJWSfCzBf 
 
 {
 
@@ -35,4 +35,4 @@ Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZ
 ######### Apagar Mensagem 
 DELETE http://127.0.0.1:3333/messages/1 HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer MQ.lWkSOokVKRsSVBDJi1lDzMr_ub3lki7m59ddVWgIrAgsNeQzpQDNPQZknzWk
+Authorization: Bearer MQ.ba0-9Axypbep9skycIRuknf8Rk5znWJoxWnip1ajw36FiYZLZ7RYJWSfCzBf
