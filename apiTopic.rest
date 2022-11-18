@@ -1,10 +1,10 @@
 ######### Cadastro Tópico 
-POST http://127.0.0.1:3333/topics HTTP/1.1 
+POST https://webbook.herokuapp.com/topics HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer Ng.JOX5Xghl5dNGsnZDlc4-M5CwpFMg9q3sW2vz7TvvX8OtAx0jGBJacaxIWsVW
+Authorization: Bearer Mg.mdQNz689okfmT0uk5rNvRGpm2aLyegRFRe9R0gRheDp0PNc_QnVrxVfg8sHs
 
 {
-"name": "Recomendações"
+"name": "Avaliações"
 }
 
 ######### Listar todos os Tópico 
