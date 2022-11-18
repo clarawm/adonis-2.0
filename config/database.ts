@@ -81,3 +81,5 @@ const databaseConfig: DatabaseConfig = {
 
   }
 }
+
+export default databaseConfig

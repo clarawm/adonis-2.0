@@ -10,7 +10,7 @@ export default class AuthController {
     return user
   }
 
-  public async login({ request, auth, response }: HttpContextContract) {
+  public async login({ request, auth }: HttpContextContract) {
     // try {
       const { email, password } = request.all()
       console.log({ email, password })
